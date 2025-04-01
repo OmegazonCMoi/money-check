@@ -41,7 +41,7 @@ const getCategoryIcon = (category: string) => {
 };
 
 export default function Home() {
-    const [money, setMoney] = useState(145.65);
+    const [money, setMoney] = useState(0);
     const [isIncomePanelVisible, setIsIncomePanelVisible] = useState(false);
     const [isExpensePanelVisible, setIsExpensePanelVisible] = useState(false);
     const [transactions, setTransactions] = useState<Transaction[]>([]);
