@@ -115,7 +115,7 @@ export default function Home() {
                     .map((transaction: Transaction) => (
                     <div className="flex justify-center items-center w-full" key={transaction.id}>
                         <div className="max-w-lg w-full flex flex-col items-center">
-                            <div className="bg-neutral-900 p-4 rounded-xl flex items-center justify-between w-3/4 mt-2 border">
+                            <div className="bg-neutral-950 p-4 rounded-xl flex items-center justify-between w-3/4 mt-2 border">
                                 <div className="flex items-center gap-3">
                                     {getCategoryIcon(transaction.category)}
                                     <div className="leading-tight ml-2">
